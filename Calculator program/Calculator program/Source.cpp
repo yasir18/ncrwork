@@ -15,6 +15,7 @@ int main()
 	cout << "Choose the option:";
 	cin >> op;
 	cout << "Enter the two numbers:";
+	//hghg
 	cin >> a >> b;
 	switch (op) {
 	case 1:
