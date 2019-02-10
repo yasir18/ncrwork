@@ -1,0 +1,15 @@
+char *color[6] = {“red”, “green”, “blue”, “white”, “black”, “yellow”};
+
+a. What is the meaning of color?
+Ans: color refers to the  array of pointers and it points to the base address of it
+b. What is the meaning of (color+2);
+Ans: color+2 means pointer to the address of third string
+
+c. What is the value of *color?
+Ans: *color means the address of first string
+
+d. What is the value of *(color+2)?
+Ans: *(color+2) value is address of third string 
+
+e. How do color[5] and *(color + 5) differ?.
+Ans: They differ only in representation.
