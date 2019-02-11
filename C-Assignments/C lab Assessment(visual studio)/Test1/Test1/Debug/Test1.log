@@ -1,0 +1,6 @@
+﻿  Source1.c
+c:\users\cdac\source\repos\supriyat12\supriya\test1\test1\source1.c(16): warning C4047: '=': 'FILE *' differs in levels of indirection from 'errno_t'
+  Count.c
+  Generating Code...
+  Test1.vcxproj -> C:\Users\cdac\Source\Repos\supriyat12\supriya\Test1\Debug\Test1.exe
+  Test1.vcxproj -> C:\Users\cdac\Source\Repos\supriyat12\supriya\Test1\Debug\Test1.pdb (Full PDB)

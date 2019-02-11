@@ -1,0 +1,7 @@
+This is a sample file which is used to test different operations on a file . This file contains digits like 1,2,3..
+alphabets, spaces and special characters like $,%,#...
+//This is a line comment
+Hello\tGuys\tThis\tline\tcontains\ttabs
+/*This is a block comment
+or a multi line comment*/
+heyÿ
