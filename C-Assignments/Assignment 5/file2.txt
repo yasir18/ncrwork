@@ -1,0 +1,11 @@
+h Current position is 1
+E Current position is 26
+L Current position is 52
+L Current position is 78
+O Current position is 104
+  Current position is 131
+w Current position is 158
+o Current position is 185
+r Current position is 212
+L Current position is 239
+D Current position is 266
