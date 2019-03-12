@@ -1,0 +1,4 @@
+﻿  CreateThread.cpp
+c:\users\yasir\documents\visual studio 2015\projects\windows\p12-createthread\createthread.cpp(21): warning C4101: 'harray': unreferenced local variable
+  p12-CreateThread.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p12-CreateThread.exe
+  p12-CreateThread.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p12-CreateThread.pdb (Full PDB)

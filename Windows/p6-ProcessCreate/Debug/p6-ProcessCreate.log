@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\yasir\documents\visual studio 2015\projects\windows\p6-processcreate\source.cpp(30): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\yasir\documents\visual studio 2015\projects\windows\p6-processcreate\source.cpp(50): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  p6-ProcessCreate.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p6-ProcessCreate.exe
+  p6-ProcessCreate.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p6-ProcessCreate.pdb (Full PDB)

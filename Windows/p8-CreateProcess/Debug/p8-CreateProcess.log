@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\yasir\documents\visual studio 2015\projects\windows\p8-createprocess\source.cpp(30): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\yasir\documents\visual studio 2015\projects\windows\p8-createprocess\source.cpp(9): warning C4101: 'hhProcess': unreferenced local variable
+  p8-CreateProcess.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p8-CreateProcess.exe
+  p8-CreateProcess.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p8-CreateProcess.pdb (Full PDB)

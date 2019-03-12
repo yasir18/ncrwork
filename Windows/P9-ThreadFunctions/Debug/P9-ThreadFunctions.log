@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\yasir\documents\visual studio 2015\projects\windows\p9-threadfunctions\source.cpp(29): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  P9-ThreadFunctions.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\P9-ThreadFunctions.exe
+  P9-ThreadFunctions.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\P9-ThreadFunctions.pdb (Full PDB)

@@ -1,0 +1,11 @@
+﻿  Source.cpp
+c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(22): warning C4477: 'wprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(22): note: consider using '%hs' in the format string
+  c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(22): note: consider using '%Ts' in the format string
+  c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(22): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(38): warning C4477: 'wprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(38): note: consider using '%hs' in the format string
+  c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(38): note: consider using '%Ts' in the format string
+  c:\users\yasir\documents\visual studio 2015\projects\windows\p5-filecreatewrite\source.cpp(38): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+  p5-FileCreateWrite.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p5-FileCreateWrite.exe
+  p5-FileCreateWrite.vcxproj -> C:\Users\yasir\Documents\Visual Studio 2015\Projects\Windows\Debug\p5-FileCreateWrite.pdb (Full PDB)
