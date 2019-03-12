@@ -24,6 +24,7 @@ int main(){
 	char s1[30],s2[100];
 	printf("Enter the string to be expanded\n");
 	scanf("%s",s1);
+	
 	expand(s1,s2);
 	printf("The new string is %s\n",s2 );
 	return 0;

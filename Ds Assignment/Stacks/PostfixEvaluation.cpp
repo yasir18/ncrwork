@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 #include<string>
 using namespace std;
 template <class t>
