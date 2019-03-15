@@ -1,0 +1,69 @@
+<html><head>
+  <title>address form</title>
+      <!-- Bootstrap cdn -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <!-- jQuery CDN -->
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+      <style type="text/css">
+        
+        #details {
+          display: none;
+            width: 300px;
+            border: 1px solid #ccc;
+            padding: 14px;
+            background: #ececec;
+        }
+      </style>
+  
+</head>
+<body >
+  <div>
+    <h4>Click below button to fill your profile details.</h4>
+    <button id="Mybtn" class="btn btn-primary">Hide</button><br><br>
+  </div>
+  <div >
+    <div id="details" style="display: block;">
+      <form>
+        House No:<br>
+        <input type="text" id="houseno">
+        <br>
+
+        Locality:<br>
+        <input type="text" id="locality">
+        <br>
+
+        mandal:<br><input type="text" id="mandal">
+        <br>
+
+        State:<br>
+        <select  id="state">
+        <option value="telangana">Telangana</option>
+        <option value="andhrapradesh">Andhra Pradesh</option>
+        </select>
+        <br>
+
+        Pincode:<br>
+        <input type="number" id="pincode">
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>  
+    </div>
+  </div>
+
+  <script>
+    $("#Mybtn").click(function(){
+      $("#details").toggle();         //toggling display of form 
+      if($('#details').css('display')=='block')   //if the form is displaying, change the content of button to Hide else Show
+        $('#Mybtn').text('Hide');
+      if($('#details').css('display')=='none')
+        $('#Mybtn').text('Show');
+    });
+    
+  </script>
+
+</body></html>

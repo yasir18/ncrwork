@@ -1,0 +1,107 @@
+<!-- 1) Create Two forms Current Address and Permanent Address with following fields
+a) House No
+b) Locality
+c) Mandal (Select)
+d) State (Select)
+e) PinCode
+
+--On Checking of checkbox with message "Same as Current Address" all the field values entered in Current Address form should be added in Permanent Address -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Form copy</title>
+    <script type="text/javascript" src="/jQueryAssignments/jQuery.js"></script><!-- loading jQuery library -->	
+  </head>
+    <body>
+
+		<h2>Present Address</h2>
+		<div>
+			<form>
+			  House No:<br>
+			  <input type="text" id="houseno">
+			  <br>
+
+			  Locality:<br>
+			  <input type="text" id="locality">
+			  <br>
+
+			  mandal:<br><input type="text" id="mandal">
+			  <br>
+
+			  State:<br>
+			  <select  id="state">
+			  <option value="telangana">Telangana</option>
+			  <option value="andhrapradesh">Andhra Pradesh</option>
+			  </select>
+			  <br>
+
+			  Pincode:<br>
+			  <input type="number" id="pincode">
+			  <br>
+
+			</form>
+	    </div>
+		<br><br>
+
+		<h2>Permanent Address</h2>
+		<input type="checkbox" id="isChecked" > Same as present address<br>
+		<br><br>
+		<div>
+			<form>
+			  House No:<br>
+			  <input type="text" id="permanentHouseno">
+			  <br>
+
+			  Locality:<br>
+			  <input type="text" id="permanentLocality">
+			  <br>
+
+			  mandal:<br><input type="text" id="permanentMandal">
+			  <br>
+
+			  State:<br>
+			  <select  id="permanentState">
+			  <option value="telangana">Telangana</option>
+			  <option value="andhrapradesh">Andhra Pradesh</option>			  
+			  </select>
+			  <br>
+
+			  Pincode:<br>
+			  <input type="number" id="permanentPincode">
+			  <br>
+
+			</form>
+		</div>
+
+		 <script>
+		      $(document).ready(function()
+		      {
+		      	$("#permanentState").val(""); //initialising permanent state to empty
+		        $("#isChecked").click(function()
+		        {
+		          if(this.checked==true)
+		          {
+		            $("#permanentHouseno").val($("#houseno").val());
+		            $("#permanentLocality").val($("#locality").val());
+		            $("#permanentMandal").val($("#mandal").val());
+		            $("#permanentState").val($("#state").val());
+		            $("#permanentPincode").val($("#pincode").val());
+		          }
+		          else
+		          {
+		            $("#permanentHouseno").val("");
+		            $("#permanentLocality").val("");
+		            $("#permanentMandal").val("");
+		            $("#permanentState").val("");
+		            $("#permanentPincode").val("");
+		          }
+		          
+		        });
+		      });
+		  </script>
+
+</body>
+</html>

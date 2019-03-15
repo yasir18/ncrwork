@@ -1,0 +1,31 @@
+<!-- Using jQuery on entering text in the textbox, the entered text should be appended to paragraph in the HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo of append function</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <h4>When you enter some text in the below container, the content gets appended in the paragraph below it</h4>
+    <input type="text" placeholder="type something" id="inputText">
+    <button id="btnAppend">append</button>
+    <p id="currentText"></p>
+    <p id="appendedText">The text appended is... </p>
+     
+    <script>
+    $("#inputText").keyup(function(){
+      var value= $( "#inputText" ).val();
+      $("#currentText").text(value);  
+    })  
+      
+    $( "#btnAppend" ).click(function() {
+        var value = $( "#inputText" ).val(); 
+        $( "#appendedText" ).append( value ); //appending value
+        $("#inputText").val(""); //setting the input Text to empty string
+        $("#currentText").text("");  //resetting the current text to empty string
+      });
+    </script>
+ 
+</body>
+</html>

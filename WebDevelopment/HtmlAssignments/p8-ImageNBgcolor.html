@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript methods demo</title>
+</head>
+<body>
+	<p>This is just a paragraph</p>
+	<p>Do you want to change the background color and background image</p>
+	<form>
+		<input type="radio" name="background" id="color">Background color<br>
+        
+           
+  		<input type="radio" name="background" id="image">Background image	
+  		<input type="button" onClick="change()">submit
+	</form>
+	<script type="text/javascript">
+		function change()
+		{
+			if(document.getElementById('color').checked==true) {
+            document.body.style.backgroundImage = 'none';
+				document.body.style.backgroundColor = "red";
+                
+			} else if(document.getElementById('image').checked==true) { 
+			document.body.style.backgroundImage = "url(http://i.imgur.com/qK42fUu.jpg)";
+			}
+		}
+	</script>
+</body>
+</html>
